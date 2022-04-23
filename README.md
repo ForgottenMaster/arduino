@@ -1,3 +1,6 @@
+[![Check and Lint](https://github.com/ForgottenMaster/arduino-uno/actions/workflows/check-and-lint.yaml/badge.svg)](https://github.com/ForgottenMaster/eidetic/actions/workflows/check-and-lint.yaml)
+[![Release Packaging](https://github.com/ForgottenMaster/arduino-uno/actions/workflows/release-packaging.yaml/badge.svg)](https://github.com/ForgottenMaster/eidetic/actions/workflows/release-packaging.yaml)
+
 # Arduino Uno
 This is a repository for me to do work fiddling with my Arduino Uno in Rust as I experiment with embedded coding.
 
