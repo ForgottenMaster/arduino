@@ -1,4 +1,4 @@
-# Arduino
+# Arduino Uno
 This is a repository for me to do work fiddling with my Arduino Uno in Rust as I experiment with embedded coding.
 
 To run the binaries in this package is just a case of using cargo run and ensuring the Arduino Uno is plugged into the computer so the compiled program can be uploaded.
