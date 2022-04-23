@@ -13,6 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - name: Update Cargo
+        run: rustup update
       - name: Install AVR
         run: sudo apt install avr-libc gcc-avr pkg-config avrdude
       - name: Install Ravedude
