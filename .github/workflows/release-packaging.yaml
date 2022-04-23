@@ -13,6 +13,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - name: Install AVR
+        run: sudo apt install avr-libc gcc-avr pkg-config avrdude
+      - name: Install Ravedude
+        run: cargo install ravedude
       - name: Release Build
         run: cargo build --release
       - name: 'Upload Artifact'
